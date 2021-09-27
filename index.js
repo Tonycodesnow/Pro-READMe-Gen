@@ -5,6 +5,8 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 
+
+
 const questions = [
     {
         type: "input",
@@ -37,14 +39,16 @@ const questions = [
         name: "install"
     },
     {
-        type: "input",
-        message: "Enter contribution guidelines for your project:",
-        name: "contribution"
+        type: 'confirm',
+        name: 'confirmAbout',
+        message: "Would you like to enter contributors",
+        // enter a function for a t/f statement that leads to a return that can
+        //  skip with no input and move on to next question 
     },
     {
         type: "input",
         message: "Enter any test information for your project:",
-        name: "testing"
+        name: "tests"
     },
     {
         type: "list",
@@ -52,23 +56,20 @@ const questions = [
         name: "license",
         choices: [
             "Apache",
-            "Code Project Open(CPOL)",
-            "Eclipse",
             "GNU",
             "MIT ",
             "Mozilla(MPL 1.1)",
         ]
-    }
+    },
 ];
 
 
 // TODO: Create a function to write README file
 writeToFile = (fileName, data) => {
-    fs.writeFile(`./generatedFile/${fileName}`, data,(err) => err ?
-    console.log(err): console.log('success')
+    fs.writeFile(`./generatedFile/${fileName}`,data,(err) => err ?
+    console.log(err): console.log('successfully wrote README.md')
     )
-}
-
+};
 
 // TODO: Create a function to initialize app
 function init() {
