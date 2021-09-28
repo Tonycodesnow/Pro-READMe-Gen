@@ -6,7 +6,6 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 
 
-
 const questions = [
     {
         type: "input",
@@ -21,7 +20,14 @@ const questions = [
     {
         type: "input",
         message: "Enter your GitHub Username: (Required)",
-        name: "github"
+        name: "github",
+        validate: linkInput => {
+            if (linkInput) {
+              return true;
+            } else {
+              return 'You need to enter a project GitHub link!';
+            }
+        }
     },
     {
         type: "input",
@@ -43,7 +49,7 @@ const questions = [
         name: 'confirmAbout',
         message: "Would you like to enter contributors",
         // enter a function for a t/f statement that leads to a return that can
-        //  skip with no input and move on to next question 
+        //  skip with no input and move on to next question
     },
     {
         type: "input",
@@ -77,12 +83,15 @@ function init() {
     .prompt(questions).then(function(answers){
         // const fileName = 'README.md'
         // const data = generateMarkdown(answers)
-        
         writeToFile('README.md', generateMarkdown(answers))
     }).catch(function(err){
         console.log(err)
     })
 };
+// function prompt() {
+//     return new Promise((resolve, reject) => {
 
+//     })
+// }
 // Function call to initialize app
 init();

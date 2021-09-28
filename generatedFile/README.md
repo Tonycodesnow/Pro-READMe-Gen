@@ -1,8 +1,8 @@
-# new, README
+# mo, README
   
 
   ## Descriptions
-  its new
+  mo
 
   ## Table of Contents
   - [Description](#description)
@@ -14,22 +14,21 @@
   - [License](#license)
 
   ## GitHub
-  new
+  mo
 
   ## Usage
-  download boorstrap
+  mo
 
   ## Installation
-  doeanload node
+  mo
 
-  ## Contributions
-  undefined
+  
 
   ## Tests
-  no new test
+  mo
 
   ## License
   This project is covered under the Apache
 
-  Find me on GitHub [new](https://github.com/new)  or E-mail me: newguy
+  Find me on GitHub [mo](https://github.com/mo)  or E-mail me: mo
 
