@@ -41,24 +41,24 @@ const questions = [
     },
     {
         type: "input",
-        message: "Enter the step by step installation instructions:",
+        message: "Enter the step by step installation instructions if possible:",
         name: "install"
     },
     {
         type: 'confirm',
         name: 'confirmAbout',
-        message: "Would you like to enter contributors",
+        message: "Would you like to enter contributors?:",
         // enter a function for a t/f statement that leads to a return that can
         //  skip with no input and move on to next question
     },
     {
-        type: "input",
+        type: "confirm",
+        name: "tests",
         message: "Enter any test information for your project:",
-        name: "tests"
     },
     {
         type: "list",
-        message: "Which license does this project fall under?",
+        message: "Which license does this project fall under?:",
         name: "license",
         choices: [
             "Apache",

@@ -27,9 +27,16 @@ function contributor(contrib)  {
   ${contrib}`}
 };
 
+function tests(tests) {
+  if (!tests){return ``}
+  else{return`
+  ## Tests
+  ${tests}`}
+}
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}, README
+  return `# ${data.title}'s, READMe
 
 
 ## Descriptions
@@ -55,8 +62,7 @@ ${data.install}
 
 ${contributor(data.contributor)}
 
-## Tests
-${data.tests}
+${tests(data.tests)}
 
 ${renderLicenseSection(data.license)}
 
