@@ -24,7 +24,7 @@ const questions = [
         validate: linkInput => {
             if (linkInput) {
               return true;
-            } else {
+
               return 'You need to enter a project GitHub link!';
             }
         }
@@ -32,7 +32,14 @@ const questions = [
     {
         type: "input",
         message: "Enter your email address:",
-        name: "email"
+        name: "email",
+        validate: linkInput => {
+            if (linkInput) {
+              return true;
+
+              return 'You need to enter a valid E-mail!';
+            }
+        }
     },
     {
         type: "input",
@@ -45,14 +52,12 @@ const questions = [
         name: "install"
     },
     {
-        type: 'confirm',
-        name: 'confirmAbout',
+        type: 'input',
+        name: 'contributions',
         message: "Would you like to enter contributors?:",
-        // enter a function for a t/f statement that leads to a return that can
-        //  skip with no input and move on to next question
     },
     {
-        type: "confirm",
+        type: "input",
         name: "tests",
         message: "Enter any test information for your project:",
     },
@@ -61,10 +66,10 @@ const questions = [
         message: "Which license does this project fall under?:",
         name: "license",
         choices: [
-            "Apache",
-            "GNU",
-            "MIT ",
-            "Mozilla(MPL 1.1)",
+            "apache-2.0",
+            "agpl-3.0",
+            "MIT",
+            "mpl-2.0",
         ]
     },
 ];
