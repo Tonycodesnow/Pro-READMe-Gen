@@ -21,6 +21,7 @@
   
   ## Usage
   Dynamically generates a professional README.md file from a user's input using the Inquirer package by invoking the following command: Node.js index and begin answering the prompted questions.
+  * Watch a live how to use this app video here https://www.youtube.com/watch?v=sxTBrvbLskA
 
 
   ## Installation
@@ -32,10 +33,7 @@
   
   ## Tests
   Test were performed throughout till the completion of this project to ensure the app is fully functional.
-<<<<<<< HEAD
    
-=======
->>>>>>> 713d022c16d25c1058c27c95282bb2410d14ed29
   
   ## License 
   This project is covered under the mit [License](https://choosealicense.com/licenses/mit)
