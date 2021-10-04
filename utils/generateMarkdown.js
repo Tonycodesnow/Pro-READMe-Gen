@@ -60,13 +60,13 @@ function generateMarkdown(data) {
   ${data.description}
   
   ## Table of Contents
-  - [Description](#description)
-  - [GitHub](#github)
-  ${data.usage ? `- [Usage](#usage)`:''}
-  ${data.install ? `- [Installation](#installation)`:''}
-  ${data.contributions ? `- [Contributions](#contribution)`:''}
-  ${data.tests ? `- [Tests](#tests)`:''}
-  ${data.license ? `- [License](#license)`:''}
+  * [Description](#description)
+  * [GitHub](#github)
+  ${data.usage ? `* [Usage](#usage)`:''}
+  ${data.install ? `* [Installation](#installation)`:''}
+  ${data.contributions ? `* [Contributions](#contribution)`:''}
+  ${data.tests ? `* [Tests](#tests)`:''}
+  ${data.license ? `* [License](#license)`:''}
   
   ## GitHub
   ${data.github}

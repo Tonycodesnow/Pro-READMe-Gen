@@ -17,6 +17,7 @@
   ## GitHub
   https://github.com/Tonycodesnow/Pro-READMe-Gen
   
+  <p align="center"><img src="./utils/inages/rd.png" width="70%"></p>
   
   ## Usage
   Dynamically generates a professional README.md file from a user's input using the Inquirer package by invoking the command:node index and begin answering the prompted questions.

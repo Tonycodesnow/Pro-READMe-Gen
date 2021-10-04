@@ -57,10 +57,8 @@ const questions = [
         message: "Which license does this project fall under?:",
         name: "license",
         choices: [
-            "apache-2.0",
-            "lgpl-3.0",
+            "unlicense",
             "mit",
-            "mpl-2.0",
         ]
     },
 ];
