@@ -33,7 +33,6 @@
   
   ## Tests
   Test were performed throughout till the completion of this project to ensure the app is fully functional.
-   
   
   ## License 
   This project is covered under the mit [License](https://choosealicense.com/licenses/mit)
