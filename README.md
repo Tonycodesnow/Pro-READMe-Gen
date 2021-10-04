@@ -1,4 +1,4 @@
-# Pro-RadMe-Gen's, READMe
+# Pro-ReadMe-Gen's, READMe
   
   ![License](https://img.shields.io/badge/License-mit-blue.svg)
   
@@ -17,19 +17,21 @@
   ## GitHub
   https://github.com/Tonycodesnow/Pro-READMe-Gen
   
-  <p align="center"><img src="./utils/inages/rd.png" width="70%"></p>
+  <p align="center"><img src="./utils/images/rd.png" width="70%"></p>
   
   ## Usage
-  Dynamically generates a professional README.md file from a user's input using the Inquirer package by invoking the command:node index and begin answering the prompted questions.
+  Dynamically generates a professional README.md file from a user's input using the Inquirer package by invoking the following command: Node.js index and begin answering the prompted questions.
 
-  
+
   ## Installation
   Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies. Have (Node.js) https://nodejs.org/en/ installed and (inquirer) https://www.npmjs.com/package/inquirer. I used resources such as (shield.oi) https://shields.io/category/build and licenses from https://choosealicense.com/licenses/. This app was built with Javascript. 
   
-  
+  ## Contributions 
+  If you wish to contribute please drop me an Email
   
   
   ## Tests
+  Test were performed throughout till the completion of this project to ensure the app is fully functional.
    
   
   ## License 
