@@ -29,13 +29,8 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide instructions and examples for use. Include a screenshot as needed:",
+        message: "Provide instructions and examples for use, add in pictures if possible:",
         name: "usage"
-    },
-    {
-        type: "input",
-        message: "To add a picture of the project(add the exact file path of the screenshot), if not press enter:",
-        name: "picture"
     },
     {
         type: "input",
@@ -63,7 +58,7 @@ const questions = [
         name: "license",
         choices: [
             "apache-2.0",
-            "agpl-3.0",
+            "lgpl-3.0",
             "mit",
             "mpl-2.0",
         ]
@@ -73,7 +68,7 @@ const questions = [
 // function to write README file
 writeToFile = (fileName, data) => {
     fs.writeFile(`./generatedFile/${fileName}`,data,(err) => err ?
-    console.log(err): console.log('successfully wrote README.md')
+    console.log(err): console.log('Congratulations🎉 you successfully wrote your README.md!')
     )
 };
 

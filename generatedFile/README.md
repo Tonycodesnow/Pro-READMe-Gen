@@ -1,37 +1,39 @@
-# mo's, READMe
+# Pro-RadMe-Gen's, READMe
   
-  ![badge](https://img.shields.io/badge/license-mpl-2.0.svg)
+  ![License](https://img.shields.io/badge/License-mit-blue.svg)
   
   ## Descriptions
-  mo
+  high-quality README app that can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
   
   ## Table of Contents
   - [Description](#description)
   - [GitHub](#github)
-  
-  
-  
-  
+  - [Usage](#usage)
+  - [Installation](#installation)
+  - [Contributions](#contribution)
+  - [Tests](#tests)
   - [License](#license)
   
   ## GitHub
-  mo
+  https://github.com/Tonycodesnow/Pro-READMe-Gen
   
   
+  ## Usage
+  Dynamically generates a professional README.md file from a user's input using the Inquirer package by invoking the command:node index and begin answering the prompted questions.
 
-  <p align="center"><img src='' width="70%"></p>
-
-
+  
+  ## Installation
+  Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies. Have (Node.js) https://nodejs.org/en/ installed and (inquirer) https://www.npmjs.com/package/inquirer. I used resources such as (shield.oi) https://shields.io/category/build and licenses from https://choosealicense.com/licenses/. This app was built with Javascript. 
   
   
   
   
-  
+  ## Tests
+   
   
   ## License 
-  This project is covered under the mpl-2.0 [License](https://choosealicense.com/licenses/mpl-2.0)
+  This project is covered under the mit [License](https://choosealicense.com/licenses/mit)
   
-  
-  Find me on GitHub [mo](https://github.com/mo)  or E-mail me: 
+  Questions or comments find me on GitHub [https://github.com/Tonycodesnow/Pro-READMe-Gen](https://github.com/https://github.com/Tonycodesnow/Pro-READMe-Gen)  or E-mail me: Huertinez.sales@outlook.com
   
   
